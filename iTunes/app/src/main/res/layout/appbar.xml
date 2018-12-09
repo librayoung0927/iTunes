@@ -1,0 +1,23 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        style="@style/AppTheme.iTunes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@animator/appbar_elevation">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="false"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:navigationIcon="@mipmap/action_back_black_24"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</merge>

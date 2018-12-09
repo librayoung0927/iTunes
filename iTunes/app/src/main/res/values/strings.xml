@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ITunes</string>
+
+
+    <string name="collection_name">專輯名稱</string>
+    <string name="track_name">歌曲名稱</string>
+    <string name="singer">歌手</string>
+    <string name="count">找到 %d 筆結果</string>
+
+    <string name="occur_problem">目前偵測網路尚未連上，請重新檢查網路是否連上</string>
+</resources>

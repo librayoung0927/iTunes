@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/albumCoverIv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        tools:ignore="ContentDescription"/>
+
+
+    <TextView
+        android:id="@+id/collectionHintTv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/albumCoverIv"
+        android:gravity="center_vertical"
+        android:text="@string/collection_name"/>
+
+    <TextView
+        android:id="@+id/collectionNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@+id/collectionHintTv"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/trackNameHintTv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/collectionHintTv"
+        android:layout_alignStart="@+id/collectionHintTv"
+        android:gravity="center_vertical"
+        android:text="@string/track_name"/>
+
+    <TextView
+        android:id="@+id/trackNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/trackNameHintTv"
+        android:layout_toEndOf="@+id/trackNameHintTv"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"/>
+
+</RelativeLayout>
